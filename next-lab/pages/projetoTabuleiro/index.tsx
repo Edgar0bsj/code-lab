@@ -1,17 +1,17 @@
 import Linha from "../../components/projetoTabuleiro/Linha";
-import styles from "../../styles/projetoTabuleiro/Home.module.css"
+import styles from "../../components/projetoTabuleiro/styles/Home.module.css"
 
 const home = ()=>{
     return (
         <div className={styles.conteiner}>
-            <Linha/>
-            <Linha preta/>
-            <Linha/>
-            <Linha preta/>
-            <Linha/>
-            <Linha preta/>
-            <Linha/>
-            <Linha preta/>
+            <Linha preta={true}/>
+            <Linha preta={false}/>
+            <Linha preta={true}/>
+            <Linha preta={false}/>
+            <Linha preta={true}/>
+            <Linha preta={false}/>
+            <Linha preta={true}/>
+            <Linha preta={false}/>
         </div>
     )
 };

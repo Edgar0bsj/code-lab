@@ -1,6 +1,7 @@
-import styles from "../../styles/projetoTabuleiro/subdivisao.module.css"
+import styles from "./styles/subdivisao.module.css"
+import {propsTabuleiro} from "./Interface"
 
-const Subdivisao = (props:any) => {
+const Subdivisao = (props:propsTabuleiro) => {
     return (
         <div
             style={{
@@ -8,7 +9,6 @@ const Subdivisao = (props:any) => {
             }}
             className={styles.subdivisao}
         >
-
         </div>
     )
 };

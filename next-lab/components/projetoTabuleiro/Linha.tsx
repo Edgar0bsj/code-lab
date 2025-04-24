@@ -1,7 +1,8 @@
-import styles from "../../styles/projetoTabuleiro/linha.module.css"
-import Quadradinho from "./quadradinho";
+import Quadradinho from "./Quadradinho";
+import {propsTabuleiro} from "./Interface"
+import styles from "./styles/linha.module.css"
 
-const Linha = (props:any) => {
+const Linha = (props:propsTabuleiro) => {
     return (
         <div className={styles.linha}>
             <Quadradinho preta={props.preta} />
