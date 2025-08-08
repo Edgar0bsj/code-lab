@@ -1,0 +1,15 @@
+{
+    "name": "edgar/sistema_de_frete",
+    "autoload": {
+        "psr-4": {
+            "Edgar\\SistemaDeFrete\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edgar0bsj",
+            "email": "edgarbsj.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
