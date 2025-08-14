@@ -1,0 +1,30 @@
+[
+    {
+        "id": "689dfcb05549a",
+        "nome": "Lu",
+        "email": "lu@gmail.com",
+        "data_nascimento": "1999-03-05",
+        "registrado_em": "2025-08-14 15:11:44"
+    },
+    {
+        "id": "689dfcd02b69a",
+        "nome": "Gui",
+        "email": "gui@gmail.com",
+        "data_nascimento": "1997-10-02",
+        "registrado_em": "2025-08-14 15:12:16"
+    },
+    {
+        "id": "689dfd041d8c3",
+        "nome": "Luk",
+        "email": "luk@gmail.com",
+        "data_nascimento": "1996-08-04",
+        "registrado_em": "2025-08-14 15:13:08"
+    },
+    {
+        "id": "689e03d50f2ee",
+        "nome": "tony",
+        "email": "tony@gmail.com",
+        "data_nascimento": "2002-11-01",
+        "registrado_em": "2025-08-14 15:42:13"
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "name": "app/registro",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\Registro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edgar0bsj",
+            "email": "edgarbsj.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
