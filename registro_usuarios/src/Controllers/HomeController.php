@@ -15,9 +15,10 @@ class HomeController
     }
 
     public function lerJson():array {
-        $dir = 'C:/laragon/www/registro_usuarios/src/data/usuarios.json';
+        $dir = __DIR__.'/../data/usuarios.json';
         $json = json_decode(file_get_contents($dir), true);
 
         return $json;
     }
+
 }
